@@ -1,0 +1,11 @@
+((synopsis "SRFI 195: Multiple-Value Boxes")
+ (version "0.1")
+ (license "MIT")
+ (category data)
+ (dependencies box)
+ (author "Marc Nieper-Wißkirchen")
+ (maintainer "Wolfgang Corcoran-Mathe")
+ (components
+  (extension
+   srfi-195
+   (types-file))))
