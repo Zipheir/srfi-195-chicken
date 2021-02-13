@@ -2,7 +2,6 @@
  (version "0.1")
  (license "MIT")
  (category data)
- (dependencies box)
  (author "Marc Nieper-Wißkirchen")
  (maintainer "Wolfgang Corcoran-Mathe")
  (components

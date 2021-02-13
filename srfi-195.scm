@@ -22,5 +22,9 @@
 
 (module (srfi 195)
   (box-arity unbox-value set-box-value!)
-  (import (srfi 111))
+  (import (scheme)
+          (chicken base))
+
+  (include "r7rs-shim.scm")
+  (include "195.scm")
   )

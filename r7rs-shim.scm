@@ -1,0 +1,5 @@
+(define (list-set! xs k obj)
+  (let loop ((xs xs) (k k))
+    (cond ((null? xs) (error "list-set!: invalid index" k))
+          ((zero? k) (set-car! xs obj))
+          (else (loop (cdr xs) (- k 1))))))
